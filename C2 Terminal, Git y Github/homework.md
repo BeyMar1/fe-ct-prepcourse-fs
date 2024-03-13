@@ -65,7 +65,7 @@ WINDOWS $ type nul > [nombreDelArchivo]
 
 Debes generar un repositorio en GitHub. Para esto ingresa a [**GITHUB**](https://github.com/) y logueate con tu usuario y contraseña.
 
-El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**RepositorioHenry**_".
+El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**RepositorioHenry**_"..
 
 ---
 
