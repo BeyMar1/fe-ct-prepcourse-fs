@@ -1,9 +1,110 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #ddddd3;
+    position: absolute;
+    background:linear-gradient();
+}
+
+header{
+    height: 200px;
+    background: linear-gradient(#301c1c, #3a1a1e);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/12/nezuko-glowing-eyes-black-desktop-wallpaper-preview.jpg);
+    background-position-y:center;
+    background-position-x:center;
     
 }
+.none{
+    display: none;
+}
+
+header h1{
+    font-size: 40px;
+    color: #eeeeed;
+    text-shadow: #46b077 5px 0 20px; 
+    /* text-shadow: 1px 1px 2px red, 0 0 20px blue; */
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #46b077;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+main{
+    margin-left:12% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+}
+section{
+    align-items: center;
+}
+
+.sombra{
+    margin: 10px 2px;
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 10px 10px;
+    box-shadow: 10px 5px 5px rgb(145, 144, 144);
+    padding: 5px 3px;
+}
+.zeni{
+    box-shadow: -15px 5px 5px rgb(145, 144, 144);
+    border: 1px solid rgb(145, 144, 144);
+    border-radius: 10px 10px;
+}
+img{
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.pj--historia{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 2%;
+    padding-bottom: 10px;
+
+}
+
+p{
+    margin: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+footer{
+    position: relative;
+    color: #eeeeed;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #22201f;
+}
+
